@@ -23,27 +23,6 @@ No uppercase letters allowed.
 
 No special characters allowed other than @, _, and ..
 
-🚀 How to Run
-Prerequisites
-Python 3.x installed on your machine.
-
-Steps
-Clone the repository:
-
-Bash
-
-git clone https://github.com/yourusername/email-validator.git
-Navigate to the directory:
-
-Bash
-
-cd email-validator
-Run the script:
-
-Bash
-
-python email_validation.py
-Enter an email address when prompted to see the validation result.
 
 🧩 Logic Flow
 The script operates using a "Filter" approach. If the input passes the first check, it moves to the second, and so on.
