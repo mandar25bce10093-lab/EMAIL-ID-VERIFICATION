@@ -1,10 +1,10 @@
-📧 Email Validator (Python)
+ Email Validator (Python)
 A simple, logic-based Python script to validate email addresses without using Regular Expressions (Regex). This project demonstrates string manipulation, conditional branching, and loop iteration in Python.
 
-📝 Description
+Description
 This script asks the user for an email input and verifies if it matches a strict set of custom criteria. It is designed to check for common formatting errors and specific structural rules using nested if-else statements.
 
-✅ Validation Rules
+ Validation Rules
 The email is considered valid only if it meets all the following conditions:
 
 Length: The total length must be 6 characters or more.
@@ -24,7 +24,7 @@ No uppercase letters allowed.
 No special characters allowed other than @, _, and ..
 
 
-🧩 Logic Flow
+ Logic Flow
 The script operates using a "Filter" approach. If the input passes the first check, it moves to the second, and so on.
 
 Check Length: Uses len() to ensure minimum size.
